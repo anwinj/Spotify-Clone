@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone- Web Player: Music for everyone</title>
+
+    <!-- title icon -->
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1024px-Spotify_logo_without_text.svg.png">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- google font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- fontawesome cdnjs linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+
+            <div class="sidebar-top">
+
+                <div class="sidebar-house">
+                    <a href="#"><i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+
+                <div class="sidebar-search">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+
+            <div class="sidebar-bottom">
+
+                <div class="sidebar-library">
+                    <a href="#"><i class="fa-solid fa-bookmark fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+
+                <div class="sidebar-liked">
+                    <a href="#"><img src="./images/liked-icon.jpg" alt=""></a>
+                </div>
+
+                <div class="sidebar-song-icons">
+                    <a href="#"><img src="./images/sidebar-1.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-2.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-3.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-4.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-5.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-6.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-7.jpg" class="sidebar-icons" alt=""></a>
+                    <a href="#"><img src="./images/sidebar-8.jpg" class="sidebar-icons" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- content section -->
+
+        <div class="content">
+
+            <!-- content header -->
+            <div class="content-header">
+                
+                <div class="back-forward">
+                    <a href="#"><i class="fa-solid fa-chevron-left fa-lg" style="color: #ffffff;"></i></a>
+
+                    <a href="#"><i class="fa-solid fa-chevron-right fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+
+                <div class="content-buttons">
+                    <button class="explore-button"><p>Explore Premium</p></button>
+
+                    <button class="install-button">
+                        <i class="fa-solid fa-arrow-down fa-lg" style="color: #ffffff;"></i>
+                        <p>Install App</p>
+                    </button>
+
+                    <button class="bell-icon"><i class="fa-solid fa-bell fa-lg" style="color: #ffffff;"></i></button>
+
+                   <img class="account-icon" src="./images/1594378574352.jpeg" alt="">
+
+                </div>
+                
+            </div>
+
+            <!-- made for section -->
+            <div class="made-section">
+
+                <div class="made-header">
+                    <h2>Made for Anwin J Thomas</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="made-cards">
+
+                    <!-- made card 1 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-1.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Daily Mix 1</h4>
+                            <p>Kester, Sachin Warrier,Rohit...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 2 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-2.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Daily Mix 2</h4>
+                            <p>Adele,Ed Sheeran, Robert..</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 3 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-3.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Daily Mix 3</h4>
+                            <p>One Direction, Jonas Brothers...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 4 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-4.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Daily Mix 4</h4>
+                            <p>King, Kaam Bhari, Dhvani...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 5 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-5.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Daily Mix 5</h4>
+                            <p>Govind Vasantha, Sid Sriram...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 6 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/made-6.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Discover Weekly</h4>
+                            <p>Your weekly mixtape of fresh music. Enjoy..</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- charts section -->
+            <div class="made-section">
+
+                <div class="made-header">
+                    <h2>Charts</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="made-cards">
+
+                    <!-- charts card 1 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-1.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Hot Hits Punjabi</h4>
+                            <p>Catch the hottest punjabi tracks...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- charts card 2 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-2.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Latest Tamil</h4>
+                            <p>New music from Kollywood..</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- charts card 3 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-3.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Hot Hits Hindi</h4>
+                            <p>Hottest Hindi music served here...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- charts card 4 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-4.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Hot Hits Tamil</h4>
+                            <p>Tune into the hottest tracks of Kollywood...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- charts card 5 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-5.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Top 50 - India</h4>
+                            <p>Your daily updates of the most played trac...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- made card 6 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/charts-6.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Top 50 - Global</h4>
+                            <p>Your daily updates of the most played trac..</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Popular section -->
+            <div class="made-section">
+
+                <div class="made-header">
+                    <h2>Popular Albums</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="made-cards">
+
+                    <!-- popular card 1 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-1.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Kabir Singh</h4>
+                            <p>Various Artists</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- popular card 2 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-2.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Chaleya</h4>
+                            <p>Anirudh Ravichander, Arjit Singh,Shilpa...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- popular card 3 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-3.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Aashiqui 2</h4>
+                            <p>Mithoon, Ankit Tiwari, Jeet Gannguli...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- popular card 4 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-4.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Yeh Jawaani</h4>
+                            <p>Pritam</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- popular card 5 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-5.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Still Rollin</h4>
+                            <p>Shubh</p>
+                        </div>
+        
+                    </div>
+
+                    <!--popular card 6 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/popular-6.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Heeriye</h4>
+                            <p>Jasleen Royal, Arjit Singh, Dulquer...</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Radio section -->
+            <div class="made-section">
+
+                <div class="made-header">
+                    <h2>Popular Radio</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="made-cards">
+
+                    <!-- radio card 1 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-1.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Arijit Singh Radio</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- radio card 2 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-2.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Sidhu Moose Wal..</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- radio card 3 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-3.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Yo Yo Honey Sing..</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- radio card 4 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-4.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>KK Radio</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- radio card 5 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-5.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Pritam Rollin</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                    <!--radio card 6 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/radio-6.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Taylor Swift Radio</h4>
+                            <p>By Spotify</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- India section -->
+            <div class="made-section">
+
+                <div class="made-header">
+                    <h2>India's Best</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="made-cards">
+
+                    <!-- india card 1 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-1.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Punjabi 101</h4>
+                            <p>Ultimate 101 Punjabi Hits with Diljit Dosanj</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- india card 2 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-2.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>RADAR India</h4>
+                            <p>Most exciting artists from the indian...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- india card 3 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-3.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Bollywood Cen..</h4>
+                            <p>Bollywood Central,jab baje toh...</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- india card 4 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-4.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>RAP 91</h4>
+                            <p>India's rap scene. Cover- Raftar</p>
+                        </div>
+        
+                    </div>
+
+                    <!-- india card 5 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-5.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Tollywood Pearls</h4>
+                            <p>Finest set of Telugu music from the last...</p>
+                        </div>
+        
+                    </div>
+
+                    <!--india card 6 -->
+                    <div class="card">
+
+                        <div class="card-elements">
+                            <img class="card-img" src="./images/india-6.jpg" alt="">
+                                <div class="card-button">
+                                    <button><i class="fa-solid fa-play" style="color: #000000;"></i></button>
+                                </div>
+                            </img>
+                            <h4>Kollywood Cre..</h4>
+                            <p>Finest set of Tamil music from the last...</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer section -->
+            <footer>
+                <div class="links">
+                    <ul class="links-1">
+                        <li class="li-head">Company</li>
+                        <li>About</li>
+                        <li>Jobs</li>
+                        <li>For the Record</li>
+                    </ul>
+    
+                    <ul class="links-1">
+                        <li class="li-head">Communities</li>
+                        <li>For Artists</li>
+                        <li>Developers</li>
+                        <li>Advertising</li>
+                        <li>Investors</li>
+                        <li>Ventors</li>
+                    </ul>
+    
+                    <ul class="links-1">
+                        <li class="li-head">Useful Links</li>
+                        <li>Support</li>
+                        <li>Free Mobile App</li>
+                    </ul>
+                </div>
+    
+                <div class="socials">
+                    <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
